@@ -1,2 +1,17 @@
-# Python-Project
-Built a project to analyze employee data and project detail, including cost and status. Created a data frame table to track projects with fields such as Project Name, Cost, Status, and Assigned Employees. Used Pandas &amp; NumPy for data handling and visualization. 📊 Provided insights into project allocation, budget utilization, and progress tracking.
+# ✈️ Airline Database SQL Project
+
+## 📌 Project Overview
+This project demonstrates how SQL can be applied to analyze and manage **airline data**, including passengers, bookings, flights, airlines, crew, and routes.  
+The aim was to simulate real-world airline queries and generate insights into **passenger behavior, flight operations, revenues, and efficiency**.
+
+---
+
+## 🛠 Database Schema
+The Airline Database included the following tables:
+- **Airlines** – Airline details (Airline ID, Name, Country)  
+- **Airports** – Airport code, name, city, country  
+- **Flights** – Flight Number, Airline, Source, Destination, Departure/Arrival times, Status  
+- **Passengers** – Passenger ID, Name, Age, Gender, Contact Info  
+- **Bookings/Tickets** – Booking ID, Passenger ID, Flight ID, Booking Date, Fare, Payment Mode  
+- **Crew** – Crew assignments with Flight ID and Role  
+- **Routes** – Source Airport, Destination Airport, Distance, Duration 
